@@ -33,7 +33,7 @@ class _DetailPageState extends State<DetailPage> {
               child: ListView.separated(
                 padding: const EdgeInsets.all(8),
                 itemCount: snapshot.data!.length,
-                 itemBuilder: (BuildContext context, int index) {
+                itemBuilder: (BuildContext context, int index) {
                   return ListTile(
                     leading: CircleAvatar(
                       //number 1 - end
